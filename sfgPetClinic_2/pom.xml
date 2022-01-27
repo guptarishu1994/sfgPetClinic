@@ -34,6 +34,14 @@
 					</excludes>
 				</configuration>
 			</plugin>
+			<plugin>
+			<groupId>org.apache.maven.plugin</groupId>
+			<artifactId>maven-release-plugin</artifactId>
+			<version>3.8.1</version>
+			<configuration>
+			<goals>install</goals>
+			</configuration>
+			</plugin>
 		</plugins>
 	</build>
 
